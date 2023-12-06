@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    background-color: rgb(3, 79, 145);
+    height: 200px;
+}
+.title{
+    color: rgb(227, 227, 49);
+}
