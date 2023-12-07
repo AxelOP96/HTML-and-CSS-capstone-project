@@ -8,4 +8,49 @@
 }
 .title{
     color: rgb(227, 227, 49);
+    text-align: center;
+}
+.main{
+    height: 60vh;
+    background-color: rgb(227, 227, 49);
+}
+.escudo{
+    margin-left: 70px;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(3, 79, 145);
+    background-color: rgb(227, 227, 49);
+}
+.p-left{
+    position: relative;
+    left: 1000px;
+}
+.footer{
+    background-color: rgb(3, 79, 145);
+    height: 100px;
+}
+li a{
+
+    color: white;
+    text-decoration: none;
+
+}
+li a:hover{
+    color: rgb(227, 227, 49);
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+
+    list-style: none;
+}
+.hero{
+    width: 600px;
+    height: 300px;
 }
