@@ -21,31 +21,28 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section>
-            Navigation Bar linking to all 4 pages
-HTML form with a minimum of:
-1 fieldset
-3 inputs
-2 text
-1 checkbox
-1 textarea
-Appropriate labels for the above
-1 button
-        <form action="" method="post">
-            <fieldset>
+
+        <form action="" method="post" class="centre">
+            <fieldset class="column">
                 <legend>Registrate</legend>
                 <label for="">Nombre:</label>
                 <input type="text" placeholder="Ingresa tu nombre">
                 <label for="">Apellido:</label>
                 <input type="text" placeholder="Ingresa tu apellido">
                 <label for="">Numero:</label>
-                <input type="number">
-                <label for="">Acepto terminos y condiciones</label>
-                <input type="checkbox" name="" id="">
+                <input type="number" min="0">
+                <div class="flex">
+                    <label for="">Acepto terminos y condiciones
+                        <input type="checkbox" name="" id="">
+                    </label>
+
+                </div>
+
                 <label for="">Comentarios:</label>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="button-sec">
             </fieldset>
         </form>
         </section>

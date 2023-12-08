@@ -23,8 +23,16 @@
     padding: 5px;
     color: rgb(3, 79, 145);
     background-color: rgb(227, 227, 49);
+    cursor: pointer;
 }
-
+.button-sec{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(3, 79, 145);
+    color: rgb(227, 227, 49);
+    cursor: pointer;
+}
 .p-left{
     position: relative;
     left: 1000px;
@@ -89,4 +97,19 @@ li{
 .centre{
     width: 80%;
     margin: auto;
+}
+input{
+    outline: none;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+}
+.flex label input{
+    margin: 7px -85px;
+}
+textarea{
+    margin: 5px 0;
 }
