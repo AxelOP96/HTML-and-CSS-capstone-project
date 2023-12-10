@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +10,7 @@
 .title{
     color: rgb(227, 227, 49);
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 .main{
     height: auto;
@@ -50,7 +52,7 @@
     padding: 40px;
 }
 li a{
-
+    font-family: 'Lato', sans-serif;
     color: white;
     text-decoration: none;
 
@@ -68,7 +70,7 @@ li a:hover{
     flex-direction: column;
 }
 li{
-
+    font-family: 'Lato', sans-serif;
     list-style: none;
 }
 .hero{
@@ -83,6 +85,7 @@ li{
 }
 .texto{
     color: rgb(43, 77, 107);
+    font-family: 'Lato', sans-serif;
 }
 .black{
     background-color: black;
@@ -114,5 +117,33 @@ textarea{
     margin: 5px 0;
 }
 .lista{
-    background-color: rgb(94, 143, 186);;
+    background-color: rgb(94, 143, 186);
+}
+.margin{
+    margin: 20px auto;
+}
+.grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); /* Dos filas con altura fraccionaria igual */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas con ancho fraccionario igual */
+    gap: 20px;
+    padding: 20px;
+}
+.grid img {
+    width: 100%; /* Ajustar el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Mantener la proporción original de la imagen */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .grid img:hover {
+    transform: scale(1.1);
+  }
+  .label {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(94, 143, 186);
+  }
+p{
+    font-family: 'Lato', sans-serif;
 }

@@ -23,9 +23,63 @@
         </nav>
     </header>
     <main class="main">
-        <section>
+        <section >
             <h1 class="title2">Disciplinas</h1>
-            <img src="" alt="">
+            <div class="grid">
+                <div>
+                    <img src="futbol.jpg" alt="" onclick="openImageSource('futbol.jpg')">
+                    <div class="label">Futbol masculino</div>
+                </div>
+                <div>
+                    <img src="futfem.jpg" alt="" onclick="openImageSource('futfem.jpg')">
+                    <div class="label">Futbol femenino</div>
+                </div>
+                <div>
+                    <img src="reserva.jpg" alt="" onclick="openImageSource('reserva.jpg')">
+                    <div class="label">Reserva</div>
+                </div>
+                <div>
+                    <img src="basquet.jpg" alt="" onclick="openImageSource('basquet.jpg')">
+                    <div class="label">Basquet</div>
+                </div>
+
+                <div>
+                    <img src="voleymasc.jpg" alt="" onclick="openImageSource('voleymasc.jpg')">
+                    <div class="label">Voley masculino</div>
+                </div>
+
+                <div>
+                    <img src="taekwondo.jpg" alt="" onclick="openImageSource('taekwondo.jpg')">
+                    <div class="label">Taekwondo</div>
+                </div>
+
+            </div>
+            <div class="grid">
+                <div>
+                    <img src="ajedrez.jpg" alt="" onclick="openImageSource('ajedrez.jpg')">
+                    <div class="label">Ajedrez</div>
+                </div>
+                <div>
+                    <img src="gimnasia-artistica.jpg" alt="" onclick="openImageSource('gimnasia-artistica.jpg')">
+                    <div class="label">Gimnasia Artistica</div>
+                </div>
+                <div>
+                    <img src="gimnasia-ritmica.jpg" alt="" onclick="openImageSource('gimnasia-ritmica.jpg')">
+                    <div class="label">Gimnasia Ritmica</div>
+                </div>
+                <div>
+                    <img src="judo.jpeg" alt="" onclick="openImageSource('judo.jpeg')">
+                    <div class="label">Judo</div>
+                </div>
+                <div>
+                    <img src="karate.jpg" alt="" onclick="openImageSource('karate.jpg')">
+                    <div class="label">Karate</div>
+                </div>
+                <div>
+                    <img src="lucha-olimpica.jpg" alt="" onclick="openImageSource('lucha-olimpica.jpg')">
+                    <div class="label">Lucha Olimpica</div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="">
@@ -42,5 +96,10 @@
             </div>
 
     </footer>
+    <script>
+        function openImageSource(imageSource) {
+          window.open(imageSource, '_blank');
+        }
+      </script>
 </body>
 </html>
